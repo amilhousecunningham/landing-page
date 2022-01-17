@@ -1,7 +1,7 @@
 body {
   background-image: url("bg.jpg");
   background-repeat: no-repeat;
-  opacity: 0.8;
+  opacity: 0.9;
   -webkit-background-size: 4100px;
   -moz-background-size: 4100px;
   -o-background-size: 4100px;
@@ -55,7 +55,6 @@ button {
   background-color: rgb(115, 131, 87);
   border-color: rgb(115, 131, 87);
   color: black;
-
 }
 
 .btn-2 {
