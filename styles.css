@@ -1,9 +1,10 @@
 html {
   background-image: url("bg.jpg");
-  background-size: 50;
+  background-color: darkolivegreen;
+  margin: -8px  0 -6px;
   background-repeat: no-repeat;
   opacity: 0.8;
-  overflow: scroll;
+  overflow: hidden;
   overflow-x: hidden;
   overflow-y: hidden;
 
@@ -69,7 +70,6 @@ button {
 a {
   color: gray;
   text-decoration: none;
-  color: black;
 }
 
 @media only screen and (max-width: 600px) {
