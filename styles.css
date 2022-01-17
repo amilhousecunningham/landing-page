@@ -1,0 +1,91 @@
+html {
+  background-image: url("bg.jpg");
+  background-size: 50;
+  opacity: 0.8;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  border-radius: 20px;
+}
+
+.title {
+  font-size: 62px;
+  font-family: cursive;
+  color: darkolivegreen;
+}
+
+.subscribe {
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.description {
+  font-size: 22px;
+  font-family: Garamond, Georgia;
+  color: darkolivegreen;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: Garamond, Georgia;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.btn-1 {
+  background-color: rgb(115, 131, 87);
+  border-color: rgb(115, 131, 87);
+}
+
+.btn-2 {
+  background-color: rgb(187, 202, 161);
+  border-color: rgb(187, 202, 161);
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    position: relative !important;
+    top: 40px !important;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .content {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    position: relative !important;
+    top: 110px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .content {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    position: relative !important;
+    top: 110px !important;
+  }
+}
