@@ -56,11 +56,13 @@ button {
 .btn-2 {
   background-color: rgb(187, 202, 161);
   border-color: rgb(187, 202, 161);
+  color: black;
 }
 
 a {
   color: gray;
   text-decoration: none;
+  color: black;
 }
 
 @media only screen and (max-width: 600px) {
@@ -69,6 +71,14 @@ a {
     padding-right: 50px !important;
     position: relative !important;
     top: 40px !important;
+  }
+  .btn-1 {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+  .btn-2 {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
   }
 }
 
@@ -79,6 +89,14 @@ a {
     position: relative !important;
     top: 110px !important;
   }
+  .btn-1 {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+  .btn-2 {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -87,5 +105,13 @@ a {
     padding-right: 50px !important;
     position: relative !important;
     top: 110px !important;
+  }
+  .btn-1 {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+  .btn-2 {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
   }
 }
