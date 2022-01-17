@@ -3,6 +3,7 @@ body {
   background-repeat: no-repeat;
   opacity: 0.9;
   -webkit-background-size: 4100px;
+  background-size: 4100px;
   -moz-background-size: 4100px;
   -o-background-size: 4100px;
 }
@@ -11,6 +12,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  top: 75px;
 }
 
 .content {
