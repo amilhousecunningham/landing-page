@@ -1,16 +1,10 @@
-html {
+body {
   background-image: url("bg.jpg");
-  background-color: darkolivegreen;
-  margin: -8px  0 -6px;
   background-repeat: no-repeat;
   opacity: 0.8;
-  overflow: hidden;
-  overflow-x: hidden;
-  overflow-y: hidden;
   -webkit-background-size: 4100px;
   -moz-background-size: 4100px;
   -o-background-size: 4100px;
-  background-size: 4100px;
 }
 
 .row {
