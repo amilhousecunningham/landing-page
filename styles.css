@@ -2,9 +2,9 @@ html {
   background-image: url("bg.jpg");
   background-size: 50;
   opacity: 0.8;
-  overflow: hidden;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  overflow: scroll;
+  overflow-x: scroll;
+  overflow-y: scroll;
 
 }
 
@@ -55,6 +55,8 @@ button {
 .btn-1 {
   background-color: rgb(115, 131, 87);
   border-color: rgb(115, 131, 87);
+  color: black;
+
 }
 
 .btn-2 {
@@ -83,7 +85,7 @@ a {
     padding-left: 60px !important;
     padding-right: 60px !important;
     position: relative !important;
-    top: 110px !important;
+    top: 40px !important;
   }
 }
 
@@ -92,6 +94,6 @@ a {
     padding-left: 60px !important;
     padding-right: 60px !important;
     position: relative !important;
-    top: 110px !important;
+    top: 40px !important;
   }
 }
